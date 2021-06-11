@@ -31,6 +31,7 @@ The project was developed using the following technologies
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 - Mobile-first workflow
 - VS Code
 
