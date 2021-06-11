@@ -18,7 +18,7 @@
 
 ## 🔖&nbsp; About
 
-The Netflix Clone is a project created in a B7W Course to copy the Starbucks page only with HTML and CSS. It is a project created in order to put into practice all the content studied during the intire HTML e CSS course as well to practice the *flexbox*, *css grid* and *responsiveness* properties.
+The Netflix Clone is a project created in a DIO Bootcamp to replicate the Instagram Account Page with HTML and CSS. It is a project created in order to put into practice all the content studied during the intire HTML, CSS and JS bootcamp to practice.
 
 
 ---
