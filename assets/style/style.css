@@ -1,0 +1,144 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Arial Black';
+    color: var(--red);
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAA;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+header a:hover {
+    color: #FFF;
+}
+
+/*MAIN*/
+
+.main-film {
+    background-image: url("../img/capa-hand.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 470px;;
+}
+
+main .container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 50%;
+    margin-left: 30px;
+}
+
+main .container-title {
+    font-size: 45px;
+    font-family: 'Trebuchet MS';
+}
+
+main .container-sinopse {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+main .buttons-area {
+    padding-bottom: 40px;
+}
+
+main .button {
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    box-shadow: none;
+    margin-right: 15px;
+    border: none;
+    font-size: 12px;
+    transition: 0.3s ease all;
+}
+
+main .button:hover {
+    background-color: #FFF;
+    color: var(--black);
+    cursor: pointer;
+}
+
+/*FILM SECTION*/
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.films-carousel {
+    margin-top: 10px;
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    main .button {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    main .container {  
+        width: 60%;
+    }
+
+    main .container-title {
+        font-size: 33px;
+    }
+
+    main .buttons-area {
+        padding-bottom: 20px;
+    }
+
+    main .container-sinopse {
+        font-size: 13px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    main .container {   
+        width: 40%;
+    }
+}
